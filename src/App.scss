@@ -1,7 +1,20 @@
 $primary-color:#007bff;
 $text-color:#161c2d;
 $c-font:14px;
+$backcolor: #f6f7fa;
+$p_color:#8492a6;
 
+
+
+.text-color{
+  color: $p-color;
+}
+.section{
+  padding: 60px 0px;
+}
+.p_p{
+  padding: 20px 0px;
+}
 
 //-------------Header-------------------css start
 .bg_s{
@@ -23,4 +36,152 @@ a#collasible-nav-dropdown{
 span.navbar-toggler-icon {
   filter: invert(1);
 }
+.card_{
+  margin-top: -20px;
+  z-index: 99;
+}
 /*-----------Header ENd -----------------------*/
+
+/*----------------------About ------------------*/
+
+
+
+
+
+/*-----------------------End About----------------*/
+
+
+/*----------------------------Service --------------*/
+
+
+.serv {
+ 
+  background-color: $backcolor;
+  padding-bottom: 5%;
+}
+.m-t{
+  padding-top: 5%;
+  
+}
+.m-t-10{
+  padding-top: 20px;
+}
+.border-radius{
+  border-radius: 5px;;
+}
+
+/*-----------------------------End Service ------------------*/
+
+
+
+/*----------------------------Workp--------------------*/
+
+
+.UX_one.col {
+  display: flex;
+  border: 1px dashed #ccc;
+}
+.radius_l{
+  border-radius: 100px 0px 0px;
+}
+.outer_c.col {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+p.icon {
+  width: 82px;
+  background-color: #f0f0fe;
+  font-size: 55px;
+  border-radius: 40px;
+  margin: 3px 8px;
+  line-height: 86px;
+}
+p.icon>svg {
+  margin: 5px 10px;
+}
+mark {
+  float: right;
+  margin-top: -31px;
+  color: $primary-color;
+}
+.w_s {
+  max-width: 35%;
+}
+.m-t-w {
+  margin: 80px 0px;
+}
+.radius_r{
+  border-radius: 0px 0px 100px 0px;
+}
+.w_c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.w_ss {
+  margin-top: -65px !important;
+}
+.w_sss {
+  margin-top: -62px;
+}
+.w_ssss {
+  margin-top: -66px;
+}
+/*------------------------------------End workp----------------------*/
+
+
+/*------------------------------Counter-----------*/
+
+.count{
+  background-image: url(../src/componets/Images/bg-pattern.png);
+}
+.Count_b {
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 74px;
+  text-align: center;
+}
+
+
+
+
+/*---------------------------------End Counter-------------*/
+
+
+
+/*---------------------------------Footer css------------------------------*/
+
+
+
+.f_b {
+  padding: 50px;
+
+}
+
+
+/*------------------------------------------End footer css-------------*/
+
+/*---------------------------Footer Bottom----------------*/
+
+.f_bottom{
+  background-color: #e3eef8;
+}
+.f_icon>a {
+  border: 1px solid;
+  border-color: $primary-color;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: $primary-color;
+}
+.f_icon>a>svg{
+  color: $primary-color;
+}
+/*------------------------------End Footer Bottom-------------*/

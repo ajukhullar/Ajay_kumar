@@ -8,7 +8,7 @@ import banner3 from "../componets/Images/banner_3.jpg"
 class Slider extends React.Component {
     render(){
         return(
-            <Carousel fade>
+            <Carousel fade id="home">
   <Carousel.Item>
     <img
       className="d-block w-100"
