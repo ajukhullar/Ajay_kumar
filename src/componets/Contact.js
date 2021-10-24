@@ -48,7 +48,7 @@ export const ContactUs = () => {
                     <Form.Control type="text" name="message" placeholder="Enter Message" />
                     </Form.Group>
                     <Button variant="primary" type="submit" value="Send">
-    Submit
+    SUBMIT
   </Button>
 
 
