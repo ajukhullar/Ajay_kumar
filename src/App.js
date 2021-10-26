@@ -10,6 +10,7 @@ import Counter  from '../src/componets/counter';
 import Footer  from '../src/componets/footer';
 import Footerbottom  from '../src/componets/footerbottom';
 import ContactUs  from '../src/componets/Contact';
+import Copyr  from '../src/componets/copyright';
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Footer />
     <ContactUs />
     <Footerbottom />
+    <Copyr />
     </div>
   );
 }

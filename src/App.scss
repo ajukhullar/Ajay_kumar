@@ -180,8 +180,24 @@ mark {
   border-radius: 50%;
   font-size: 22px;
   color: $primary-color;
+  width: 40px;
+  height: 40px;
 }
 .f_icon>a>svg{
   color: $primary-color;
+  display: block;
 }
 /*------------------------------End Footer Bottom-------------*/
+
+
+/*---------------------------------Copy right ------------------*/
+
+
+
+.copyright {
+  background-color: #161c2d;
+  color: #fff;
+  padding: 8px;
+}
+
+/*---------------------------------End copy right--------------*/
