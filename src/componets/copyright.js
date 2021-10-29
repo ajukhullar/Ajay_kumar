@@ -1,9 +1,11 @@
 import React  from "react";
 import { Container, Col, Row } from "react-bootstrap";
+// import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 
 
 function Copyr() {
     return(
+        <>
         <Col className="copyright">
             <Container>
                 <Row>
@@ -13,6 +15,8 @@ function Copyr() {
                 </Row>
             </Container>
         </Col>
+        {/* <p className="top"><FaAngleDoubleUp /></p> */}
+        </>
     )
 }
 export default Copyr;

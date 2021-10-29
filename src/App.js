@@ -11,7 +11,7 @@ import Footer  from '../src/componets/footer';
 import Footerbottom  from '../src/componets/footerbottom';
 import ContactUs  from '../src/componets/Contact';
 import Copyr  from '../src/componets/copyright';
-
+import ScrollButton from "../src/componets/scrolltop"; 
 
 
 
@@ -29,6 +29,7 @@ function App() {
     <ContactUs />
     <Footerbottom />
     <Copyr />
+    <ScrollButton />
     </div>
   );
 }
