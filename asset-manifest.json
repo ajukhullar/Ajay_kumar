@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Ajay_kumar/static/css/main.c386226c.chunk.css",
-    "main.js": "/Ajay_kumar/static/js/main.582cbade.chunk.js",
-    "main.js.map": "/Ajay_kumar/static/js/main.582cbade.chunk.js.map",
-    "runtime-main.js": "/Ajay_kumar/static/js/runtime-main.577904bd.js",
-    "runtime-main.js.map": "/Ajay_kumar/static/js/runtime-main.577904bd.js.map",
+    "main.css": "/Ajay_kumar/static/css/main.d14e0786.chunk.css",
+    "main.js": "/Ajay_kumar/static/js/main.2d533a9a.chunk.js",
+    "main.js.map": "/Ajay_kumar/static/js/main.2d533a9a.chunk.js.map",
+    "runtime-main.js": "/Ajay_kumar/static/js/runtime-main.d6c745f9.js",
+    "runtime-main.js.map": "/Ajay_kumar/static/js/runtime-main.d6c745f9.js.map",
     "static/css/2.c1256375.chunk.css": "/Ajay_kumar/static/css/2.c1256375.chunk.css",
-    "static/js/2.454bfc7f.chunk.js": "/Ajay_kumar/static/js/2.454bfc7f.chunk.js",
-    "static/js/2.454bfc7f.chunk.js.map": "/Ajay_kumar/static/js/2.454bfc7f.chunk.js.map",
-    "static/js/3.805e0c46.chunk.js": "/Ajay_kumar/static/js/3.805e0c46.chunk.js",
-    "static/js/3.805e0c46.chunk.js.map": "/Ajay_kumar/static/js/3.805e0c46.chunk.js.map",
+    "static/js/2.744ff8bd.chunk.js": "/Ajay_kumar/static/js/2.744ff8bd.chunk.js",
+    "static/js/2.744ff8bd.chunk.js.map": "/Ajay_kumar/static/js/2.744ff8bd.chunk.js.map",
+    "static/js/3.b78c975a.chunk.js": "/Ajay_kumar/static/js/3.b78c975a.chunk.js",
+    "static/js/3.b78c975a.chunk.js.map": "/Ajay_kumar/static/js/3.b78c975a.chunk.js.map",
     "index.html": "/Ajay_kumar/index.html",
     "static/css/2.c1256375.chunk.css.map": "/Ajay_kumar/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.c386226c.chunk.css.map": "/Ajay_kumar/static/css/main.c386226c.chunk.css.map",
-    "static/js/2.454bfc7f.chunk.js.LICENSE.txt": "/Ajay_kumar/static/js/2.454bfc7f.chunk.js.LICENSE.txt",
+    "static/css/main.d14e0786.chunk.css.map": "/Ajay_kumar/static/css/main.d14e0786.chunk.css.map",
+    "static/js/2.744ff8bd.chunk.js.LICENSE.txt": "/Ajay_kumar/static/js/2.744ff8bd.chunk.js.LICENSE.txt",
     "static/media/banner_1.bf45bdce.jpg": "/Ajay_kumar/static/media/banner_1.bf45bdce.jpg",
     "static/media/banner_2.0d49d893.jpg": "/Ajay_kumar/static/media/banner_2.0d49d893.jpg",
     "static/media/banner_3.82beca66.jpg": "/Ajay_kumar/static/media/banner_3.82beca66.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.577904bd.js",
+    "static/js/runtime-main.d6c745f9.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.454bfc7f.chunk.js",
-    "static/css/main.c386226c.chunk.css",
-    "static/js/main.582cbade.chunk.js"
+    "static/js/2.744ff8bd.chunk.js",
+    "static/css/main.d14e0786.chunk.css",
+    "static/js/main.2d533a9a.chunk.js"
   ]
 }
