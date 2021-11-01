@@ -8,12 +8,15 @@ import { FaReact } from "@react-icons/all-files/fa/FaReact";
 class Workpart extends React.Component {
     render(){
         return(
-            <Col className="workp m-t">
+            
+            <Col className=" m-t section" id="resume">
+               
                 <Container>
                     <Row>
                     <Col lg={4} className="w_c">
 
                         <Col className="work_l_p ">
+                       
                         <h2>Work Participation</h2>
                         <p className="text-color">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <Button href="#" className="btn btn-primary">See More </Button>

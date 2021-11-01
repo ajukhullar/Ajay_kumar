@@ -27,7 +27,7 @@ export const ContactUs = () => {
   };
 
   return (
-      <Col className="contact section">
+      <Col className="contact section" id="contact">
       <Container>
           <Row className="justify-content-center">
               <Col lg={8} className="text-center">

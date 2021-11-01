@@ -1,15 +1,22 @@
 import React from "react";
-import {Carousel} from "react-bootstrap"
+import {Carousel, Col} from "react-bootstrap"
 import banner from "../componets/Images/banner_1.jpg"
 import banner2 from "../componets/Images/banner_2.jpg"
 import banner3 from "../componets/Images/banner_3.jpg"
-
+import Part from "../componets/partical"
+import Part2 from "../componets/partical"
 
 class Slider extends React.Component {
     render(){
         return(
-            <Carousel fade id="home">
-  <Carousel.Item>
+          <>
+           <Col >
+        
+            <Carousel fade id=" home" >
+            
+         
+  <Carousel.Item >
+  <Part />
     <img
       className="d-block w-100"
       src={banner}
@@ -20,7 +27,9 @@ class Slider extends React.Component {
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
+  
   <Carousel.Item>
+ <Part2 />
     <img
       className="d-block w-100"
       src={banner2}
@@ -33,6 +42,7 @@ class Slider extends React.Component {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
+ 
     <img
       className="d-block w-100"
       src={banner3}
@@ -45,6 +55,9 @@ class Slider extends React.Component {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+</Col>
+
+</>
         )
     }
 }

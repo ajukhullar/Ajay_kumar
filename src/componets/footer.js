@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Row ,Col } from "react-bootstrap";
+import { Container,Row ,Col, Nav } from "react-bootstrap";
 
 import { FaPhone } from "@react-icons/all-files/fa/FaPhone";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
@@ -20,14 +20,20 @@ class Footer extends React.Component {
                           <Col className="f_b text-center ">
                               <p className="icon_f"><FaPhone /></p>
                               <p className="h5 ">Phone</p>
-                              <p className="text-color">+152 534-468-854</p>
+                             
+                              <Nav>
+                              <Nav.Link href="tel:8195041809">8195041809</Nav.Link>
+                              </Nav>
                           </Col>
                         </Col>
                         <Col lg={4} xs={12}>
                           <Col className="f_b text-center ">
                               <p className="icon_f"><FaEnvelope /></p>
                               <p className="h5 ">Email</p>
-                              <p className="text-color">akumar41809@gmail.com</p>
+                              <Nav>
+                              <Nav.Link href="mailto:akumar41809@gmail.com">akumar41809@gmail.com</Nav.Link>
+                              </Nav>
+                              
                           </Col>
                         </Col>
                         <Col lg={4} xs={12}>

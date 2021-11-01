@@ -10,7 +10,7 @@ class Counter extends React.Component{
     render() {
         
         return (
-            <Col className="count section">
+            <Col className="count section" id="project">
                 <Container>
                     <Row>
                     <Col lg={3}>

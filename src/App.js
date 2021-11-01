@@ -2,7 +2,7 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "../src/componets/header"
-import Slider from "../src/componets/slider"
+import Banners from "../src/componets/banner"
 import Personal from "../src/componets/about"
 import Service from "../src/componets/service"
 import Workpart  from '../src/componets/workp';
@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Head />
-  <Slider />
+  <Banners />
   <Personal />
  
     <Service />
