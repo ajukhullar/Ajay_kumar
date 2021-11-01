@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Container, Row,Col } from "react-bootstrap";
+import ReactTypingEffectDemo from '../componets/typewriter';
 // import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 // import { Envelope } from "@react-icons/all-files/fa/FaBeer";
 
@@ -25,7 +26,7 @@ class Personal extends React.Component {
                         </Col>
                         <Col lg={8}>
                             <Col className="im_w">
-                            <h2>I Am Web Developer|</h2>
+                            <h2 className="type">I Am  <ReactTypingEffectDemo /></h2>
                             <p className="text-color">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
                             <h4 className="name">AJAY KUMAR</h4>
                             </Col>

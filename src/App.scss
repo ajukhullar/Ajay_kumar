@@ -48,7 +48,13 @@ canvas.tsparticles-canvas-el {
 }
 
 /*----------------------About ------------------*/
-
+h2.type {
+  display: flex;
+  align-items: baseline;
+}
+h2.type>span {
+  padding-left: 10px;
+}
 
 .Details {
   padding: 18px;
