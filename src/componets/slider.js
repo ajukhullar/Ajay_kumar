@@ -16,7 +16,7 @@ class Slider extends React.Component {
             
          
   <Carousel.Item >
-  <Part />
+  
     <img
       className="d-block w-100"
       src={banner}
