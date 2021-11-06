@@ -22,7 +22,7 @@ class Footer extends React.Component {
                               <p className="h5 ">Phone</p>
                              
                               <Nav>
-                              <Nav.Link href="tel:8195041809">8195041809</Nav.Link>
+                              <Nav.Link href="tel:8295041809">8295041809</Nav.Link>
                               </Nav>
                           </Col>
                         </Col>
