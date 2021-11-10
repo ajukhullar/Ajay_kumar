@@ -1,35 +1,40 @@
 import React from "react";
-import {Carousel, Col} from "react-bootstrap"
+import {Carousel, Col, Nav} from "react-bootstrap"
 import banner from "../componets/Images/banner_1.jpg"
 import banner2 from "../componets/Images/banner_2.jpg"
 import banner3 from "../componets/Images/banner_3.jpg"
-import Part from "../componets/partical"
-import Part2 from "../componets/partical"
+
+
 
 class Slider extends React.Component {
     render(){
         return(
           <>
            <Col >
-        
+         
             <Carousel fade id=" home" >
-            
+         
          
   <Carousel.Item >
-  
+ 
     <img
       className="d-block w-100"
       src={banner}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <h3>Here I'am Web Developer</h3>
+      <small>I'm Passionate <strong className="primary">Web designer</strong></small>
+      <Nav className="text-center justify-center">
+      <Nav.Link className="btn btn-primary text-white m-1" href="#contact" >Hire Me</Nav.Link>
+        <Nav.Link className="btn btn-primary text-white m-1" href="https://drive.google.com/file/d/1qOnDXno2qITiU6gknDMEjM-3PmImNlPC/view?usp=sharing" target="blank">Download</Nav.Link>
+
+      </Nav>
     </Carousel.Caption>
   </Carousel.Item>
   
   <Carousel.Item>
- <Part2 />
+
     <img
       className="d-block w-100"
       src={banner2}
@@ -37,8 +42,13 @@ class Slider extends React.Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Here I'am Web Developer</h3>
+      <small>I'm Passionate <strong className="primary">Web designer</strong></small>
+      <Nav className="text-center justify-center">
+      <Nav.Link className="btn btn-primary text-white m-1" href="#contact">Hire Me</Nav.Link>
+        <Nav.Link className="btn btn-primary text-white m-1" href="https://drive.google.com/file/d/1qOnDXno2qITiU6gknDMEjM-3PmImNlPC/view?usp=sharing" target="blank">Download</Nav.Link>
+
+      </Nav>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -50,8 +60,13 @@ class Slider extends React.Component {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h3>Here I'am Web Developer</h3>
+      <small>I'm Passionate <strong className="primary">Web designer</strong></small>
+      <Nav className="text-center justify-center">
+      <Nav.Link className="btn btn-primary text-white m-1" href="#contact" >Hire Me</Nav.Link>
+        <Nav.Link className="btn btn-primary text-white m-1" href="https://drive.google.com/file/d/1qOnDXno2qITiU6gknDMEjM-3PmImNlPC/view?usp=sharing" target="blank">Download</Nav.Link>
+
+      </Nav>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

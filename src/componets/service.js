@@ -3,6 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import { FaDesktop } from "@react-icons/all-files/fa/FaDesktop";
 import { FaFeatherAlt } from "@react-icons/all-files/fa/FaFeatherAlt";
 import { FaRecordVinyl } from "@react-icons/all-files/fa/FaRecordVinyl";
+import { FaRegChartBar } from "@react-icons/all-files/fa/FaRegChartBar";
+import { FaHourglassHalf } from "@react-icons/all-files/fa/FaHourglassHalf";
+
 
 
 
@@ -46,23 +49,23 @@ class Service extends React.Component {
                 <Row className="p-6 m-t-10">
                     <Col lg={4} xs={12} >
                         <Col className="box border p-3 border-radius">
-                        <FaDesktop />
-                        <p className="h4 s_title">Web Developmnet</p>
+                        <FaRegChartBar />
+                        <p className="h4 s_title">Digital marketing</p>
                         <p className="text text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                         
                     </Col>
                     </Col>
                     <Col lg={4} xs={12} >
                     <Col className="box border p-3 border-radius">
-                        <FaFeatherAlt />
-                        <p className="h4 s_title">Design & Planning</p>
+                        <FaHourglassHalf />
+                        <p className="h4 s_title">24 / 7</p>
                         <p className="text text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                     </Col>
                     </Col>
                     <Col lg={4} xs={12} >
                     <Col className="box border p-3 border-radius">
                         <FaRecordVinyl />
-                        <p className="h4 s_title">Adobe Photoshop</p>
+                        <p className="h4 s_title">Graphic Designer</p>
                         <p className="text text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                     </Col>
                     

@@ -27,7 +27,7 @@ class Workpart extends React.Component {
                             <Col className="w_s w_ss"><Col className="outer_c"><p className="icon"><FaFeatherAlt /></p></Col></Col>
                             <Col>
                             <p class="h4">UX Designer</p>
-                            <mark>2015 - 2018</mark >
+                            <mark>2019 - 2021</mark >
                             <small>Oppo - HR Manager</small>
                             <p className="text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                             </Col>
@@ -37,7 +37,7 @@ class Workpart extends React.Component {
                             
                             <Col>
                             <p class="h4">Web Developer</p>
-                            <mark>2015 - 2018</mark >
+                            <mark>2019 - 2021</mark >
                             <small>Oppo - HR Manager</small>
                             <p className="text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                             </Col>
@@ -48,7 +48,7 @@ class Workpart extends React.Component {
                             <Col className="w_s w_ssss"><Col className="outer_c"><p className="icon"><FaFeatherAlt /></p></Col></Col>
                             <Col>
                             <p class="h4">Graphic Designer</p>
-                            <mark>2015 - 2018</mark >
+                            <mark>2019 - 2021</mark >
                             <small>Oppo - HR Manager</small>
                             <p className="text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                             </Col>

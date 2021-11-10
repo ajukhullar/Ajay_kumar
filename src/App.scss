@@ -4,7 +4,9 @@ $c-font:14px;
 $backcolor: #f6f7fa;
 $p_color:#8492a6;
 
-
+*{
+  font-family:sans-serif;
+}
 
 .text-color{
   color: $p-color;
@@ -15,11 +17,22 @@ $p_color:#8492a6;
 .p_p{
   padding: 20px 0px;
 }
-
-//-------------Header-------------------css start
-.bg_s{
-  color:$text-color;
+.text-white{
+  color: #fff;
+  
 }
+//-------------Header-------------------css start
+.primary{
+  color: $primary-color !important;
+}
+.primary:hover{
+  color: $primary-color !important;
+}
+.bg_s{
+  color:$primary-color;
+  background-color: transparent;
+}
+
 .color{
   color:$text-color !important;
 }
@@ -46,6 +59,10 @@ span.navbar-toggler-icon {
 canvas.tsparticles-canvas-el {
   position: absolute !important;
 }
+.justify-center{
+  justify-content: center;
+}
+
 
 /*----------------------About ------------------*/
 h2.type {
@@ -147,6 +164,7 @@ mark {
   float: right;
   margin-top: -31px;
   color: $primary-color;
+  background-color: rgba(0, 123, 254, 0.08) !important;
 }
 .w_s {
   max-width: 35%;
@@ -212,6 +230,9 @@ p.icon>svg{
 
 }
 
+.number{
+  justify-content: center;
+}
 
 /*------------------------------------------End footer css-------------*/
 
@@ -250,10 +271,10 @@ p.icon>svg{
 
 button#to{
   position: fixed;
-  bottom: 20px;
+  bottom: 8px;
   right: 30px;
-  background-color: #007bffb3;
-  border: 1px solid blue;
+  background-color: rgba(0, 123, 255, 0.3);
+  border: 1px solid rgba(0, 123, 255, 0.3) !important;
   border-radius: 10px;
   padding: 5px;
   color: #fff;

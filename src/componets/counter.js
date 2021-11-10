@@ -30,7 +30,7 @@ class Counter extends React.Component{
                     <Col lg={3}>
                         <Col className="Count_b">
                             <h2><Happy /></h2>
-                            <p className="h5">Happy Client </p>
+                            <p className="h5">Happy User </p>
                         </Col>
                         
                     </Col>

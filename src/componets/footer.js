@@ -21,7 +21,7 @@ class Footer extends React.Component {
                               <p className="icon_f"><FaPhone /></p>
                               <p className="h5 ">Phone</p>
                              
-                              <Nav>
+                              <Nav className="number">
                               <Nav.Link href="tel:8295041809">8295041809</Nav.Link>
                               </Nav>
                           </Col>

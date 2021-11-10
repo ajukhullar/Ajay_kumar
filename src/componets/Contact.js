@@ -11,7 +11,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_nvwe8kj', 'template_i8c69oa', e.target, 'user_srR3pWQDVgOZRjTlWHnwm') 
+    emailjs.sendForm('service_35jh8u9', 'template_9o7i49y', e.target, 'user_vhEwCVTpYsX39p3yoNSFj') 
       .then((result) => {
         return (
             ReactDOM.render(    <div className="alert alert-success alert-dismissible d-flex align-items-center fade show">
