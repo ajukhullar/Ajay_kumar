@@ -82,7 +82,9 @@ canvas.tsparticles-canvas-el {
     .slide{
       height: 190px !important;
     }
- 
+    .Count_b{
+      margin: 10px 0px !important;
+    }
   }
 
 
@@ -171,6 +173,7 @@ box-shadow: 0 0px 5px 0 #00000029, 0 2px 5px -1px #00000029;
 }
 .radius_l{
   border-radius: 100px 0px 0px;
+  margin-top: 60px;
 }
 .outer_c.col {
   width: 90px;
@@ -245,6 +248,7 @@ p.icon>svg{
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 
