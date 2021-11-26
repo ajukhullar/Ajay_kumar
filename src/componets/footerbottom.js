@@ -10,7 +10,7 @@ import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 class Footerbottom extends React.Component{
     render() {
         return(
-            <Col className="f_bottom section">
+            <Col className="f_bottom section2">
                 <Container>
                     <Row>
                         <Col lg={12} className="text-center">

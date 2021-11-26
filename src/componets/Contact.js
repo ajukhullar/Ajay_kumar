@@ -2,14 +2,22 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import ReactDOM from 'react-dom';
 
+
 import { Form, Container, Row, Col, Button } from 'react-bootstrap';
 
 
 export const ContactUs = () => {
+
+
+
+
+
   const form = useRef();
+
 
   const sendEmail = (e) => {
     e.preventDefault();
+
 
     emailjs.sendForm('service_35jh8u9', 'template_9o7i49y', e.target, 'user_vhEwCVTpYsX39p3yoNSFj') 
       .then((result) => {
@@ -27,25 +35,25 @@ export const ContactUs = () => {
   };
 
   return (
-      <Col className="contact section" id="contact">
+      <Col className="contact section" id="contact" >
       <Container>
           <Row className="justify-content-center">
               <Col lg={8} className="text-center">
                   <Form ref={form} onSubmit={sendEmail}>
-                  <Form.Group className="mb-4" >
-                    <Form.Control type="name" name="name" placeholder="Enter Your Name" />
+                  <Form.Group className="mb-4" > 
+                    <Form.Control type="name" name="name" placeholder="Enter Your Name" className="input_f" />
                     </Form.Group>
                     <Form.Group className="mb-4" >
-                    <Form.Control type="email" name="email" placeholder="Enter Your Email" />
+                    <Form.Control type="email" name="email" placeholder="Enter Your Email" className="input_f"/>
                     </Form.Group>
                     <Form.Group className="mb-4" >
-                    <Form.Control type="number" name="number" placeholder="Enter Phone Number" />
+                    <Form.Control type="number" name="number" placeholder="Enter Phone Number"  className="input_f"/>
                     </Form.Group>
                     <Form.Group className="mb-4" >
-                    <Form.Control type="Subject" name="Subject" placeholder="Enter Subject" />
+                    <Form.Control type="Subject" name="Subject" placeholder="Enter Subject" className="input_f"/>
                     </Form.Group>
                     <Form.Group className="mb-4" >
-                    <Form.Control type="text" name="message" placeholder="Enter Message" />
+                    <Form.Control type="text" name="message" placeholder="Enter Message" className="input_f"/>
                     </Form.Group>
                     <Button variant="primary" type="submit" value="Send">
     SUBMIT

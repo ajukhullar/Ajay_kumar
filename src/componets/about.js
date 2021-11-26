@@ -8,10 +8,10 @@ import ReactTypingEffectDemo from '../componets/typewriter';
 class Personal extends React.Component {
     render() {
         return (
-            <Col className="serv">
+            <Col className="serv m-t">
         <Container>
            
-                <Card className="card_">
+                <Card className="card_ ">
                     <Card.Body>
                     <Row>
                         <Col lg={4}>

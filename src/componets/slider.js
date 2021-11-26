@@ -12,13 +12,13 @@ class Slider extends React.Component {
           <>
            <Col >
          
-            <Carousel fade id=" home" >
+            <Carousel fade id="home" >
          
          
   <Carousel.Item >
  
     <img
-      className="d-block w-100"
+      className="d-block w-100 slide"
       src={banner}
       alt="First slide"
     />
@@ -36,7 +36,7 @@ class Slider extends React.Component {
   <Carousel.Item>
 
     <img
-      className="d-block w-100"
+      className="d-block w-100 slide"
       src={banner2}
       alt="Second slide"
     />
@@ -54,7 +54,7 @@ class Slider extends React.Component {
   <Carousel.Item>
  
     <img
-      className="d-block w-100"
+      className="d-block w-100 slide"
       src={banner3}
       alt="Third slide"
     />

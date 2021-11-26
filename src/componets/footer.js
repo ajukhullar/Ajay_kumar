@@ -4,11 +4,13 @@ import { Container,Row ,Col, Nav } from "react-bootstrap";
 import { FaPhone } from "@react-icons/all-files/fa/FaPhone";
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaMapMarkerAlt } from "@react-icons/all-files/fa/FaMapMarkerAlt";
+import bac from "../componets/Images/molecule-structure-transparent.png";
+
 
 class Footer extends React.Component {
     render() {
         return(
-            <Col className="footer m-t">
+            <Col className="footer m-t" style={{ backgroundImage: `url(${bac})` }}>
                 <Container>
                     <Row>
                     <Col className="text-center"><p className="h1">Contact Me</p>
@@ -18,7 +20,7 @@ class Footer extends React.Component {
                     <Row>
                         <Col lg={4} xs={12}>
                           <Col className="f_b text-center ">
-                              <p className="icon_f"><FaPhone /></p>
+                              <p className="icon_f phone"><FaPhone /></p>
                               <p className="h5 ">Phone</p>
                              
                               <Nav className="number">
@@ -30,7 +32,7 @@ class Footer extends React.Component {
                           <Col className="f_b text-center ">
                               <p className="icon_f"><FaEnvelope /></p>
                               <p className="h5 ">Email</p>
-                              <Nav>
+                              <Nav className="number ">
                               <Nav.Link href="mailto:akumar41809@gmail.com">akumar41809@gmail.com</Nav.Link>
                               </Nav>
                               

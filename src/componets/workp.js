@@ -41,7 +41,7 @@ class Workpart extends React.Component {
                             <small>Oppo - HR Manager</small>
                             <p className="text-color">With lots of unique blocks, you can easily build a page without coding.</p>
                             </Col>
-                            <Col className="w_s w_sss"><Col className="outer_c"><p className="icon"><FaReact /></p></Col></Col>
+                            <Col className="w_s w_sss"><Col className="outer_c"><p className="icon rec"><FaReact /></p></Col></Col>
                         
                         </Col>
                         <Col className="UX_one p-3 radius_l m-t-w">

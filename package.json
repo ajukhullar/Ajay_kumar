@@ -22,6 +22,7 @@
     "react-particles-js": "^3.5.3",
     "react-scripts": "4.0.3",
     "react-typing-effect": "^2.0.5",
+    "typeface-catamaran": "^1.1.13",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

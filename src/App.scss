@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 $primary-color:#007bff;
 $text-color:#161c2d;
 $c-font:14px;
 $backcolor: #f6f7fa;
 $p_color:#8492a6;
+$small: 400px;
 
 *{
-  font-family:sans-serif;
+  font-family: 'Catamaran';
 }
+
+::-webkit-scrollbar{
+	width:8px;
+	background-color:#ccc;
+}
+::-webkit-scrollbar-thumb{
+	background-color:$primary-color;
+	-webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
 
 .text-color{
   color: $p-color;
@@ -50,7 +63,7 @@ span.navbar-toggler-icon {
   filter: invert(1);
 }
 .card_{
-  margin-top: -20px;
+  // margin-top: -20px;
   z-index: 99;
 }
 /*-----------Header ENd -----------------------*/
@@ -62,6 +75,25 @@ canvas.tsparticles-canvas-el {
 .justify-center{
   justify-content: center;
 }
+
+
+
+  @media screen and (max-width: $small) {
+    .slide{
+      height: 190px !important;
+    }
+ 
+  }
+
+
+
+
+    
+  
+
+
+
+
 
 
 /*----------------------About ------------------*/
@@ -110,17 +142,15 @@ h2.type>span {
 }
 .box>svg{
   color: $primary-color;
-  height: 38px;
-  width: 38px;
+  height: 34px;
+  width: 34px;
 }
 .box {
   padding: 30px 40px;
   background-color: #ffffff;
-  border: 0px;
-   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
--webkit-box-shadow: -0.0625rem 0 0.625rem 0 rgba(0, 0, 0, 0.07), 0.3125rem 1.25rem 2.5rem 0 rgba(0, 0, 0, 0.04) !important;
-        box-shadow: -0.0625rem 0 0.625rem 0 
+  margin: 10px;
+ 
+box-shadow: 0 0px 5px 0 #00000029, 0 2px 5px -1px #00000029;
 }
 .s_title {
   font-size: 20px;
@@ -143,22 +173,26 @@ transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 100px 0px 0px;
 }
 .outer_c.col {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin: auto;
   border: 1px solid #ccc;
   border-radius: 50px;
 }
 p.icon {
-  width: 82px;
+  width: 75px;
   background-color: #f0f0fe;
   font-size: 55px;
   border-radius: 40px;
-  margin: 3px 8px;
-  line-height: 86px;
+  margin: 3px 7px;
+  line-height: 80px;
+}
+p.rec>svg {
+  margin-top: -8px;
 }
 p.icon>svg {
-  margin: 5px 10px;
+  margin: 0px 18px 0px 20px;
+  font-size: 34px;
 }
 mark {
   float: right;
@@ -218,11 +252,55 @@ p.icon>svg{
 
 /*---------------------------------End Counter-------------*/
 
+/*-------------------------------------Work expert -------------------*/
+
+.exp{
+  display: flex;
+  margin: 10px 0px;
+}
+.react {
+  width: 100%;
+  height: 7px !important;
+}
+p.w_p {
+  width: 100px;
+}
+.ic svg {
+  color: #007bff;
+    height: 22px;
+    width: 22px;
+}
+.react{
+  margin-top: 20px;
+}
+p.pers {
+  width: 100px;
+  text-align: right;
+  
+  padding-top: 10px;
+  font-style: italic;
+}
+
+
+
+/*------------------------------End work expert ------------------------------*/
 
 
 /*---------------------------------Footer css------------------------------*/
-
-
+.input_f{
+  border-radius: 0px !important;
+    height: 44px;
+    font-size: 18 px !important;
+}
+.btn-primary{
+  border-radius: 0px !important;
+}
+.footer{
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+  background-size: contain;
+}
 
 
 .f_b {
@@ -233,13 +311,22 @@ p.icon>svg{
 .number{
   justify-content: center;
 }
+p.icon_f>svg {
+  font-size: 34px;
+  color: $primary-color;
+}
+p.phone>svg {
+  transform: rotate(90deg);
+}
 
 /*------------------------------------------End footer css-------------*/
 
 /*---------------------------Footer Bottom----------------*/
-
+.section2{
+  padding: 20px 0px;
+}
 .f_bottom{
-  background-color: #e3eef8;
+  background-color: #f8f9fa;
 }
 .f_icon>a {
   border: 1px solid;

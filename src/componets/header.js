@@ -13,7 +13,7 @@ class Head extends React.Component{
       <Nav.Link className="primary color" href="#service">SERVICES</Nav.Link>
       <Nav.Link className="primary color" href="#resume">RESUME</Nav.Link>
       <Nav.Link className="primary color" href="#project">PROJECTS</Nav.Link>
-      <Nav.Link className="primary color" href="#blog">BLOG</Nav.Link>
+      <Nav.Link className="primary color" href="#blog">TECHNOLOGY</Nav.Link>
       <Nav.Link className="primary color" href="#contact">CONTACT</Nav.Link>
  
     </Nav>
