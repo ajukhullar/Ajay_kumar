@@ -258,6 +258,32 @@ p.icon>svg{
 
 /*-------------------------------------Work expert -------------------*/
 
+.frame>img::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  border: 7px solid $primary-color;
+  height: 700px;
+  transform: rotate(
+3deg);
+}
+.frame {
+  
+ width: 80%;
+
+  border: 7px solid $primary-color;
+ 
+  transform: rotate(
+6deg);
+
+}
+.frame>img {
+  width: 90%;
+  transform: rotate(
+-6deg);
+border: 7px solid $primary-color;
+filter: drop-shadow(5px 5px 5px #222)
+}
 .exp{
   display: flex;
   margin: 10px 0px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row, ProgressBar } from "react-bootstrap";
-import aju from "../componets/Images/aju.jpg"
+import aju from "../componets/Images/aju.png"
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { FaHtml5 } from "@react-icons/all-files/fa/FaHtml5";
 import { FaBootstrap } from "@react-icons/all-files/fa/FaBootstrap";
@@ -8,6 +8,11 @@ import { FaCss3Alt } from "@react-icons/all-files/fa/FaCss3Alt";
 import { FaJava } from "@react-icons/all-files/fa/FaJava";
 import { FaPhotoVideo } from "@react-icons/all-files/fa/FaPhotoVideo";
 import { FaWordpress } from "@react-icons/all-files/fa/FaWordpress";
+
+
+
+
+
 class Workexpert extends React.Component {
     render() {
         return (
@@ -16,11 +21,15 @@ class Workexpert extends React.Component {
              
                 <Row>
                 <Col lg={4} xs={12}>
+                
+                    <Col className="frame">
                 <img
-      className="d-block w-100"
+      className="d-block w-70"
       src={aju}
       alt="Aju"
-    />
+   />
+    </Col>
+    
                 </Col>
                 <Col lg={8} xs={12}>
                 <p className="h2 text-center">Work Expertise</p>
