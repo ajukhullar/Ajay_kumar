@@ -3,7 +3,7 @@ import {Carousel, Col, Nav} from "react-bootstrap"
 import banner from "../componets/Images/banner_1.jpg"
 import banner2 from "../componets/Images/banner_2.jpg"
 import banner3 from "../componets/Images/banner_3.jpg"
-
+import banner_aju from "../componets/Images/banner_aju.png"
 
 
 class Slider extends React.Component {
@@ -23,6 +23,11 @@ class Slider extends React.Component {
       alt="First slide"
     />
     <Carousel.Caption>
+    <img
+      className="d-block w-20"
+      src={banner_aju}
+      alt="web developer"
+    />
     <h3>Here I'am Web Developer</h3>
       <small>I'm Passionate <strong className="primary">Web designer</strong></small>
       <Nav className="text-center justify-center">
@@ -42,6 +47,11 @@ class Slider extends React.Component {
     />
 
     <Carousel.Caption>
+    <img
+      className="d-block w-20"
+      src={banner_aju}
+      alt="web developer"
+    />
       <h3>Here I'am Web Developer</h3>
       <small>I'm Passionate <strong className="primary">Web designer</strong></small>
       <Nav className="text-center justify-center">
@@ -60,6 +70,11 @@ class Slider extends React.Component {
     />
 
     <Carousel.Caption>
+    <img
+      className="d-block w-20"
+      src={banner_aju}
+      alt="web developer"
+    />
     <h3>Here I'am Web Developer</h3>
       <small>I'm Passionate <strong className="primary">Web designer</strong></small>
       <Nav className="text-center justify-center">
