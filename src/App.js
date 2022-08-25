@@ -13,12 +13,16 @@ import ContactUs  from '../src/componets/Contact';
 import Copyr  from '../src/componets/copyright';
 import ScrollButton from "../src/componets/scrolltop"; 
 import Workexpert from "../src/componets/work_expert"; 
+import React, { useEffect} from "react";
 
 
 
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Ajay Kumar";  
+  }, []);
   return (
     <div className="App">
       <Head />
